@@ -1,4 +1,4 @@
-package testing;
+package TypeINT;
 
 public class countsBits {
 
@@ -36,7 +36,7 @@ public class countsBits {
             //^ = bitwise XOR
             result ^= (x & 1); //result = result ^ ( x & 1 )
             x >>>= 1;
-            System.out.println("x : " + x);
+            //System.out.println("x : " + x);
         }
         return result;
         /*
@@ -54,15 +54,17 @@ public class countsBits {
         loop 3 : x = 0011
             0011 & 0001 = 0001
             result = 0001 ^ ( 0001 )
-            result = 0001
+            result = 0000
             x >>>= 0001
         loop 4 : x = 0001
             0001 & 0001 = 0001
-            result = 0001 ^ ( 0001 )
+            result = 0000 ^ ( 0001 )
             result = 0001
             x >>>= 0000
          */
     }
+
+
 }
 
 /*

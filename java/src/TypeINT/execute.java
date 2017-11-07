@@ -1,6 +1,6 @@
-package testing;
+package TypeINT;
 
-public class thisisatest {
+public class execute {
 
     public static void main(String args[]){
         countsBits cb = new countsBits();
